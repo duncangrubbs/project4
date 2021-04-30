@@ -1,8 +1,9 @@
 # Project 4: Top Tech Companies
+> Information Architecture
 - Aman Shrestha : Information Architect
 - Duncan Grubbs : Visual Designer 
 
-# Ontology
+## Ontology
 - Tech Company has a name
 - Tech Company has a logo
 - Tech Company has a headquarter
@@ -15,7 +16,7 @@
 - Tech Company has an industry
 - Tech Company has a history
 - Tech Company has a main product
-# Taxonomy
+## Taxonomy
 - Company Name
     - Logo
     - Headquarter
@@ -30,21 +31,21 @@
         - Location where found
     
 
-# Choreography
+## Choreography
 
-## Displaying List of companies
+### Displaying List of companies
 For displaying list of companies, depending on the number of companies, we will try to use **category** by making use of Industry. If there are fewer, we will try to use the type (public/private) as category.
 
 For listing the companies themselves, we will use **Alphabetic** structure so that we don't present any company as better than the other. 
 
-## Homepage
+### Homepage
 
 The homepage would have a slideshow of logos of the company with the photo of headquarter as a background.
 
 Each slideshow would have a button to learn more about the company. 
 
 
-## Within each company
+### Within each company
 
 Information in a company's page would be in a **categorical structure**. 
 
