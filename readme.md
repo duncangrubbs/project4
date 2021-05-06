@@ -6,3 +6,4 @@ This website is going to be about top tech companies. The website will give info
 
 
 We added a brief description of the company in the industry section of the taxonomy.
+We also added more information about Headquarter for each company including location, area and some specific information.
