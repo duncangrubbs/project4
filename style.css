@@ -5,3 +5,7 @@
 .headQuarterImage{
     width: 500px;
 }
+
+#carouselExampleIndicators{
+    max-width: 1080px;
+}
