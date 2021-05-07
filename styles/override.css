@@ -1,3 +1,12 @@
 .custom-nav {
   background-color: #3b82f6;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  border-radius: 4px;
+  width: 100%;
+}
