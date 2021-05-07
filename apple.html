@@ -8,6 +8,9 @@
 
     <link rel="stylesheet" href="./styles/style.css">
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
 
@@ -47,7 +50,7 @@
         <!-- Section with basic info  -->
         <section class="row my-4">
           <!-- Image From: https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg -->
-          <div class="col-4"><img src="images/apple_logo.png" alt="Apple Logo"/></div>
+          <div class="col"><img src="images/apple_logo.png" class="logo-img" alt="Apple Logo"/></div>
           <h1 class="col align-self-center">Apple</h1>
         </section>
         <section class="row">
@@ -74,17 +77,48 @@
                     And it is also the most popular tablet company in the world.
                     Apple went public in 1980 to instant financial success. Over the next few years, Apple shipped new computers featuring innovative graphical user interfaces, such as the original Macintosh in 1984, and Apple's marketing advertisements for its products received widespread critical acclaim. 
                 </p>
-
-                <ul>
-                    <li>IPhone</li>
-                    <li>IPad</li>
-                    <li>ITouch</li>
-                    <li>IPod Touch</li>
-                    <li>MacBook</li>
-                    <li>Macintosh</li>
-                    <li>Apple Watch</li>
-                    <li>Apple TV</li>
-                </ul>
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th scope="col">Product</th>
+                      <th scope="col">Type</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>iPhone</td>
+                      <td>Hardware</td>
+                    </tr>
+                    <tr>
+                      <td>iPad</td>
+                      <td>Hardware</td>
+                    </tr>
+                    <tr>
+                      <td>iTouch</td>
+                      <td>Hardware</td>
+                    </tr>
+                    <tr>
+                      <td>iPod Touch</td>
+                      <td>Hardware</td>
+                    </tr>
+                    <tr>
+                      <td>MacBook</td>
+                      <td>Hardware</td>
+                    </tr>
+                    <tr>
+                      <td>Macintosh</td>
+                      <td>Hardware</td>
+                    </tr>
+                    <tr>
+                      <td>Apple Watch</td>
+                      <td>Hardware</td>
+                    </tr>
+                    <tr>
+                      <td>Apple TV</td>
+                      <td>Hardware</td>
+                    </tr>
+                  </tbody>
+                </table>
             </article>
         </section>
 
