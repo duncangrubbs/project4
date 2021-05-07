@@ -1,5 +1,5 @@
 .custom-nav {
-  background-color: #3b82f6;
+  background-image:linear-gradient(to right, #112950 , #3b82f6) ;
 }
 
 * {
@@ -19,4 +19,18 @@ img {
 .logo-img {
   width: auto;
   max-height: 100px;
+}
+
+.choicebutton{
+  background-image: linear-gradient(to right, #244372 , #225aad);
+
+}
+
+.carousel-link{
+  color: white;
+  text-decoration: none;
+
+}
+.carousel-link:hover{
+  color: white;
 }
