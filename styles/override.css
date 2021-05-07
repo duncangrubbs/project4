@@ -1,5 +1,5 @@
 .custom-nav {
-  background-image:linear-gradient(to right, #112950 , #3b82f6) ;
+  background-image:linear-gradient(to right, #2d5ec9 , #3b82f6) ;
 }
 
 * {
@@ -22,15 +22,14 @@ img {
 }
 
 .choicebutton{
-  background-image: linear-gradient(to right, #244372 , #225aad);
-
+  background-image: linear-gradient(to right, #2d5ec9 , #225aad);
 }
 
-.carousel-link{
+.carousel-link {
   color: white;
   text-decoration: none;
 
 }
-.carousel-link:hover{
+.carousel-link:hover {
   color: white;
 }
